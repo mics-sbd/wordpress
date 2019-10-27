@@ -1,6 +1,6 @@
 # Wordpress
 
-Based on https://hub.docker.com/_/wordpress/
+Based on [Docker image for Wordpress 1.x](https://hub.docker.com/_/wordpress)
 
 
 
@@ -8,6 +8,7 @@ Based on https://hub.docker.com/_/wordpress/
 
 ##Commands:
 
+~~~
 export MYSQL_DATABASE='wpdb'
 export MYSQL_USER='wpuser'
 export MYSQL_PASSWORD='wppass'
@@ -18,3 +19,4 @@ export WORDPRESS_DB_NAME=${MYSQL_DATABASE}
 
 docker-compose -f dc.yml up
 
+~~~
