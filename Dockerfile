@@ -1,3 +1,6 @@
+#  Dockerfile for Wordpress
+#
+#  Use alpine:latest rather than a named version for now.
 FROM alpine:latest
 
 # persistent dependencies
